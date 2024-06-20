@@ -7,16 +7,29 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="container-dashboard">
-            <h2 id="site_name">EsWIx</h2>
-            <header>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">Blog</a>
-                <a href="#">Careers</a>
-                </header>
-                <a href="#" class="btn_header">Invite</a>
+        <div id="container-sign_up">
+            <h2>Sign Up</h2>
+            <form action="">
+                <div id="form">
+                    <div class="user-info">
+                        <label for="name">Name :</label>
+                        <input class="input" type="text" placeholder="ex.John" required="required">
+                    </div>
+                    <div class="user-info">
+                        <label for="">Email :</label>
+                        <input class="input" type="email" placeholder="ex.eustache@gmail.com" required="required">
+                    </div>
+                    <div class="user-info">
+                        <label for="">Password :</label>
+                        <input class="input" type="password" required="required">
+                    </div>
+                    <div class="user-info">
+                        <label for="tel">Tel. :</label>
+                        <input class="input" type="tel" name="tel" id="" placeholder="+254738...." required="required">
+                    </div>
+                </div>
+                <a href="./html/sign_in.html" id="btn-create-account">Create an account</a>
+                </form>
         </div>
             <script src="script.js"></script>
     </body>
