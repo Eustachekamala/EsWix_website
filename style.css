@@ -10,7 +10,7 @@
     height:400px;
     width: 400px;
     border-radius: 10px;
-    margin-left: 38%;
+    margin: auto;
     margin-top: 8%;
     padding-top: 40px;
 }
@@ -22,8 +22,8 @@
     width: 400px;
     padding: 5px;
     border-radius: 10px;
-    margin-left: 38%;
-    margin-top: 8%;
+    margin: auto;
+    margin-top: 12%;
     padding-top: 40px;
 }
 
@@ -38,14 +38,7 @@ h2{
 }
 label{
     text-align: start;
-}
-input{
-    height: 20px;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid gray;
-    padding: 5px;
-    text-align: start;
+  
 }
 /* .input{
     padding-left: 10px;
@@ -58,9 +51,20 @@ input::placeholder{
     opacity: 5px;
 }
 .user-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     padding: 5px;
     margin-bottom: 12px;
     text-align: center;
+}
+.user-info input{
+    height: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid darkgray;
+    padding: 5px;
+    text-align: start;
 }
 #btn-create-account,#btn-sign_in{
     height: 30px;
